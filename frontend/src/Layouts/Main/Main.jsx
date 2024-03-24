@@ -3,7 +3,7 @@ import styles from "./styles.module.scss";
 import Card from "../../components/Card/Card";
 import Filter from "../../components/Filter/Filter";
 
-const baseUrl = "http://localhost:3000/";
+const baseUrl = "https://keyideas-assignment.onrender.com/";
 
 const Main = () => {
   const [data, setData] = useState([]);
