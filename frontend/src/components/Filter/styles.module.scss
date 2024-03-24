@@ -1,0 +1,41 @@
+.filterContainer {
+  position: relative;
+  display: inline-block;
+  margin: 6px;
+  margin-bottom: 10px;
+}
+
+select {
+  appearance: none;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  width: 200px; /* Adjust width to fit content */
+}
+
+select:hover {
+  border-color: #999;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the arrow icon */
+.select-arrow {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+/* Custom arrow icon */
+.select-arrow::after {
+  content: "\25BC";
+  font-size: 12px; /* Adjust arrow size */
+  color: #666;
+}

@@ -1,0 +1,35 @@
+.rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #fff;
+  padding: 1px 3px;
+  border-radius: 3px;
+  font-size: 12px;
+  align-self: flex-end;
+
+  &.ratingRed {
+    background-color: #e74c3c;
+  }
+
+  &.ratingYellow {
+    background-color: #f1c40f;
+  }
+
+  &.ratingGreen {
+    background-color: #27ae60;
+  }
+}
+
+.bestSellerLabel {
+  position: absolute;
+  top: 6%;
+  left: 0%;
+  background-color: #00a098;
+  color: #fff;
+  font-size: 12px;
+  box-sizing: border-box;
+  padding: 0 3px;
+  z-index: 1;
+}

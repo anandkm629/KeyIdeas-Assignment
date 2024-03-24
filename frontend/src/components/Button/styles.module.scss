@@ -1,0 +1,51 @@
+.addToCartBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+
+  .addToCart {
+    background-color: #3498db;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #2980b9;
+    }
+  }
+
+  .quantityBtn {
+    display: flex;
+    align-items: center;
+
+    button {
+      background-color: #ecf0f1;
+      color: #333;
+      font-size: 20px;
+      width: 30px;
+      height: 30px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 4.2px 0;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: #ccc;
+      }
+    }
+
+    .quantity {
+      font-size: 16px;
+      margin: 0 10px;
+    }
+  }
+}
